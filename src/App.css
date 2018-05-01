@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-size: calc(1rem * 1vw);
+}
+
+body {
+  font-family: inherit;
+}

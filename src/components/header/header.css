@@ -1,0 +1,33 @@
+i.nav {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    transition: height 0.2s ease-in-out;
+    height: 4.85em;
+  }
+  .nav_menu {
+    display: flex;
+    flex-direction: row;
+    height: 4.85em;
+    /* width: 70%; */
+    margin: 0 auto;
+    padding: 1.625em 2.5em;
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 
+                0 1px 2px rgba(0, 0, 0, 0.24); */
+    border-radius: 0.25em;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 5em;
+  }
+  .nav_menu_brand-logo {
+    display: block;
+    background-position: -176px 0px;
+    background-image: url(../../sprite.png);
+    background-size: 405px 379px;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 176px;
+    text-indent: -1000%
+  }
